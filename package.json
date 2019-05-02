@@ -1,0 +1,27 @@
+{
+  "name": "datql",
+  "version": "1.0.0",
+  "description": "A GraphQL server hosted on Dat",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghiliweld/datql.git"
+  },
+  "author": "@ghiliweld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghiliweld/datql/issues"
+  },
+  "homepage": "https://github.com/ghiliweld/datql#readme",
+  "dependencies": {
+    "apollo-server": "^2.4.8",
+    "graphql": "^14.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.3"
+  }
+}
